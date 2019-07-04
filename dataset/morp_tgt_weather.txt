@@ -1,4 +1,4 @@
-<unk>/NNG 오늘/NNG 부터/JX 장마/NNG 시작/NNG 이/VCP 랬어/EF ./SF
+/NNG 오늘/NNG 부터/JX 장마/NNG 시작/NNG 이/VCP 랬어/EF ./SF
 그래도/MAJ 일교차/NNG 가/JKS 심하/VA 니/EC 카디건/NNP 은/JX 챙기/VV 어/EF ./SF
 아직/MAG 은/JX 밤/NNG 에/JKB 춥/VA 으니까/EC 보이/VV ㄹ러/EC 틀/VV 어야/EC 되/VV 어/EF ./SF
 학교/NNG 가/VV 지/EC 말/VX 고/EC 놀/VV 러/EC 가/VV ㄹ까/EF ?/SF

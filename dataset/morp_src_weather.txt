@@ -1,4 +1,4 @@
-<unk>몸/NNG 이/JKS 찌뿌둥/XR 하/XSA ㄴ/ETM 것/NNB 이/JKS 밖/NNG 에/JKB 날씨/NNG 가/JKS 안/MAG 좋/VA 나/EF ?/SF
+몸/NNG 이/JKS 찌뿌둥/XR 하/XSA ㄴ/ETM 것/NNB 이/JKS 밖/NNG 에/JKB 날씨/NNG 가/JKS 안/MAG 좋/VA 나/EF ?/SF
 이제/MAG 패딩/NNG 입/VV 을/ETM 날씨/NNG 는/JX 아니/VCN ㄴ/ETM 것/NNB 같/VA 아/EF ./SF
 보이/VV ㄹ러/EC 안/MAG 틀/VV 고/EC 자/VV 았/EP 더니/EC 목/NNG 이/JKS 아프/VA 네/EF ./SF
 이렇/VA 게/EC 좋/VA 은/ETM 날/NNG 에/JKB 학교/NNG 를/JKO 가/VV 아야/EC 하/VX ㄴ다니/EF ./SF

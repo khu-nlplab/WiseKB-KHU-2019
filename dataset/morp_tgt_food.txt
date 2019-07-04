@@ -1,4 +1,4 @@
-<unk>오늘/MAG 가/VV 아/EC 보/VX 려/EC 하/VX 았/EP 는데/EC 같이/MAG 가/VV ㄹ래/EF ?/SF
+오늘/MAG 가/VV 아/EC 보/VX 려/EC 하/VX 았/EP 는데/EC 같이/MAG 가/VV ㄹ래/EF ?/SF
 오늘/NNG 은/JX 좀/MAG 멀리/MAG 까지/JX 가/VV 아/EC 보/VX ㄹ까/EF ?/SF
 점심/NNG 은/JX 거르/VV 고/EC 저녁/NNG 에/JKB 죽/NNG 을/JKO 먹/VV 는/ETM 것/NNB 이/JKS 어떻/VA 어/EF ?/SF
 날/NNG 이/JKS 덥/VA ㄹ/ETM 때/NNG ㄴ/JX 항상/MAG 음식/NNG 을/JKO 조심/NNG 하/XSV 아야/EC 되/VV 어/EF ./SF
