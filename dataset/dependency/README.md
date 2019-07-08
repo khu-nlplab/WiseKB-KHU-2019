@@ -23,8 +23,7 @@ for line in lines:
 ```
 
 ## description 
-
-<table border="1">
+<table>
 <tr>
 <th>  </th>
 <th>tag</th>
