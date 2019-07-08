@@ -23,11 +23,37 @@ for line in lines:
 ```
 
 ## description 
-|            |의존구문 분석결과                     ||
-|------------|--------|---------------------------|
-|            | id     | 어절의 ID (출현 순서)     |
-|            | text   | 의존구문 텍스트           |
-| dependency | head   | 부모 어절의 ID            |
-|            | label  | 의존관계                  |
-|            | mod    | 자식 어절들의 ID          |
-|            | weight | 의존구문 분석 결과 신뢰도 |
+
+<table border="1">
+<tr>
+<th>  </th>
+<th>tag</th>
+<th>mean</th>
+</tr>
+<tr>
+<th rowspan="6"> dependecy </th>
+<td>id</td>
+<td>어절의 ID (출현 순서)</td>
+</tr>
+<tr>
+<td>text</td>
+<td>의존구문 텍스트</td>
+</tr>
+<tr>
+<td>head</td>
+<td>부모 어절의 ID</td>
+</tr>
+<tr>
+<td>label</td>
+<td>의존관계</td>
+</tr>
+<tr>
+<td>mod</td>
+<td>자식 어절들의 ID </td>
+</tr>
+<tr>
+<td>weight</td>
+<td>의존구문 분석 결과 신뢰도</td>
+</tr>
+
+</table>
