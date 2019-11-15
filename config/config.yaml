@@ -1,0 +1,42 @@
+use : 6 # pre = {1,2,3,4,5} or 1, 2, 3, 4, 5, 6task
+preprocess:
+  # 1 : analysis morp
+  access_key : f1857623-de9e-40cc-a743-91e9617383bb
+  input_file : ./input.txt
+  output_file : ./output.txt
+  # 2 : make vocab, src(Q), tgt(A)
+  data_src_file : datasets/src_weather.txt
+  morp_src_file : datasets/morp/morp_src_weather.txt
+  data_tgt_file : datasets/tgt_weather.txt
+  morp_tgt_file : datasets/morp/morp_tgt_weather.txt
+  vocab_output_file: ./vocab_weather
+  # 3 : search similar query
+  model : W # ME: maximum entropy, W: Whoosh + 2,3-Gram
+  domain : weather # for using whoosh schema path
+  similar_input_file: datasets/src_weather.txt
+  similar_output_file: ./weather_similar_60
+  similar_query_num : 30
+  jaccard_threshold : 0.6
+  jaccard_method : mean # cnt, len, mean
+  # 4 : convert word-2-vec
+  vocab_file : ./vocab_weather
+  vocab_padding : 3 # "<unk> <eos> <eot>" MYREALTOKEN/NNG
+  similar_query_file: ./weather_similar_60 # similar query result file
+  word2vec_output_file: ./weather_similar_60_vec
+  # 5 : split data set
+  word2vec_file : ./weather_similar_60_vec # word2vec result file
+  train_ratio : 0.7 # train set ratio
+  valid_ratio : 0.3 # valid set ratio ( recommend train + valid = 1.0 )
+  train_output_file : ./weather_train
+  valid_output_file : ./weather_valid
+
+test:
+  # 6 : make testsets
+  test_domain : weather # for using whoosh schema path
+  test_input_morp_file : ./weather_test.txt
+  test_output_file: ./weather_test
+  test_src_file: datasets/src_weather.txt
+  test_morp_src_file: datasets/morp/morp_src_weather.txt
+  test_morp_tgt_file: datasets/morp/morp_tgt_weather.txt
+  search_vocab_file: ./vocab_weather
+
