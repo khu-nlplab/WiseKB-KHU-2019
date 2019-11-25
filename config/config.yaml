@@ -1,7 +1,7 @@
 use : 6 # pre = {1,2,3,4,5} or 1, 2, 3, 4, 5, 6task
 preprocess:
   # 1 : analysis morp
-  access_key : f1857623-de9e-40cc-a743-91e9617383bb
+  access_key : INPUT_YOUR_KEY
   input_file : ./input.txt
   output_file : ./output.txt
   # 2 : make vocab, src(Q), tgt(A)
