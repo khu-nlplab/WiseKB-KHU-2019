@@ -10,7 +10,7 @@
 pip install -r requirements.txt
 ```
 
-### 데이터 전처리  
+## 데이터 전처리  
 
 #### Step 0: setting CONFIG
 - config/config.yaml 파일을 수정
@@ -52,3 +52,15 @@ python data_preprocess.py
 ```bash
 python data_preprocess.py 
 ```
+
+## 학습  
+
+#### Train
+- skeleton generator: `template` 폴더의 config 설정 후, `./train.sh`
+- response generator: `pretrain` 폴더의 config 설정 후, `./train.sh`
+- 대화 생성 : `soft`폴더의 config 설정 후, `./train.sh` 결과물 보려면 `translate.sh`
+
+#### skeleton generator 확인
+- `template` 폴더의 `.test.sh`을 설정 맞추고 실행하면 0이 마스킹된 결과 
+
+
