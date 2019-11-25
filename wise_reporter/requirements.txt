@@ -1,0 +1,12 @@
+
+# Document graph analysis
+numpy
+python-igraph
+
+# Multi-doc summarization
+torch==0.3.1
+six
+tqdm
+future
+torchtext==0.2.3
+
