@@ -63,4 +63,11 @@ python data_preprocess.py
 #### skeleton generator 확인
 - `template` 폴더의 `.test.sh`을 설정 맞추고 실행하면 0이 마스킹된 결과 
 
+## 형태소->문장 만드는 모델
+
+#### 사용법
+- `wise_reporter` 안의 readme, requirement.txt 확인
+- 사용법 예제는 `test.py` 확인
+- https://github.com/KNU-NLPlab/wise_reporter/ 에 계속 업데이트중
+
 
