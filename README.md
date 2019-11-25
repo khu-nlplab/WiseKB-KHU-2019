@@ -70,4 +70,13 @@ python data_preprocess.py
 - 사용법 예제는 `test.py` 확인
 - https://github.com/KNU-NLPlab/wise_reporter/ 에 계속 업데이트중
 
+## 유사발화찾기
 
+#### 사용법
+- `ME_search` 폴더 안의 `module.py` 를 import하여 사용
+- `module.py`의 전역 변수 수정을 통해 데이터 변경 가능
+- 동작 흐름
+    1. sentence_parse : 입력 문장의 형태소 분석
+    2. domain_calssify : 입력 문장의 도메인 분류
+    3. extract_similar_sentence : 입력 문장과 비슷한 문장 추출
+- 사용법 예제는 `example.py`를 참고
