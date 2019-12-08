@@ -1,4 +1,6 @@
-# WiseKB
+<h1 align="center">WiseKB-KHU-2019</h1>
+
+![Alt-Tag](https://github.com/khu-nlplab/WiseKB-KHU-2019/blob/master/wiseKB_logo.PNG)
 
 ### Dependency
 - Check the requirements.txt
