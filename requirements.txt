@@ -4,6 +4,6 @@ whoosh
 torch==1.0.1
 torchtext==0.4.0
 dill==0.2.9
-numpy==1.16.2
+numpy==1.22.0
 easydict==1.9
 nltk
